@@ -10,7 +10,7 @@ row[1] = "Jane";  // changing values in an array //
  let coolStuff = [["Ships", "Stars", "Jump"], ["Girls", "Guns", "SMGS"], "Querty"];  // Nested arrays, an array within an array
 
 
-                let randoNumbero = [20, 50, 37, 22, 90, 30, 47, 11, 60];
+ let randoNumbero = [20, 50, 37, 22, 90, 30, 47, 11, 60];
                 randoNumbero[4] = 44;   // changes the '90' value to 44
                 let nuke = randoNumbero[4]; console.log(nuke)   // elements in an array can be changed
                 var arrayArrayYeah = [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10], [[11, 12, 13, 14], 15, 16]];
@@ -22,5 +22,3 @@ row[1] = "Jane";  // changing values in an array //
 
                 let normalArray = [2, 4, 6, 8, 9];
                 var stolen = normalArray.pop(); // the pop function removes the last element in an array and adds it to another variable
-                console.log(stolen)  // this now equals the removed element
-                console.log(normalArray)  // this equals the array minus the removed element
