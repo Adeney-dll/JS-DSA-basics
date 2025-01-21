@@ -10,6 +10,7 @@ let normalArray = [2, 4, 6, 8, 9];
 let stolen = normalArray.pop(); // the pop function removes the last element in an array and adds it to another variable
 console.log(stolen)  // this now equals the removed element
 console.log(normalArray)  // this equals the array minus the removed element
+confirm() // brings down a confirm window, client can not exit without confirming from two given options 
 
 // "#" pyramid project 
 // Use of const variables //
